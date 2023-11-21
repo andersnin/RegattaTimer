@@ -1,0 +1,87 @@
+[ @file = "/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerApp.mc"; @line = 1; ]
+import Toybox.Application;
+[ @file = "/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerApp.mc"; @line = 2; ]
+import Toybox.Lang;
+[ @file = "/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerApp.mc"; @line = 3; ]
+import Toybox.WatchUi;
+[ @file = "/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerApp.mc"; @line = 5; ]
+class RegattaTimerApp extends Application.AppBase{
+    [ @file = "/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerApp.mc"; @line = 5; ]
+    <init> {
+    }
+    [ @file = "/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerApp.mc"; @line = 5; ]
+    static
+    <init> {
+    }
+    [ @file = "/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerApp.mc"; @line = 7; @position = 16; ]
+    private
+    var _view;
+    [ @file = "/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerApp.mc"; @line = 9; ]
+    function initialize() as Void {
+_Users_anders_indregard_garmin_developer_RegattaTimer_source_RegattaTimerApp_mc_9_26_start:
+[ "/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerApp.mc" 10 8 ]
+        %tmp.2 = getv ? :AppBase;
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+_Users_anders_indregard_garmin_developer_RegattaTimer_source_RegattaTimerApp_mc_9_26_stop:
+    }
+    [ @file = "/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerApp.mc"; @line = 14; ]
+    function onStart(state as Dictionary or Null) as Void {
+    }
+    [ @file = "/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerApp.mc"; @line = 18; ]
+    function onStop(state as Dictionary or Null) as Void {
+    }
+    [ @file = "/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerApp.mc"; @line = 22; ]
+    function getInitialView() as Array<Views or InputDelegates> or Null {
+_Users_anders_indregard_garmin_developer_RegattaTimer_source_RegattaTimerApp_mc_22_65_start:
+[ "/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerApp.mc" 23 8 ]
+        %tmp.4 = getv ? :RegattaTimerView;
+        %tmp.1 = newc %tmp.4 ();
+        putv self :_view %tmp.1;
+[ "/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerApp.mc" 24 8 ]
+        %tmp.5 = newa Array<Views or InputDelegates> 2;
+        %tmp.7 = getv ? :_view;
+        %tmp.8 = dup %tmp.5;
+        %tmp.9 = aputv %tmp.8 0 %tmp.7;
+        %tmp.13 = getv ? :RegattaTimerDelegate;
+        %tmp.10 = newc %tmp.13 ();
+        %tmp.14 = dup %tmp.9;
+        %tmp.15 = aputv %tmp.14 1 %tmp.10;
+        ret %tmp.15;
+_Users_anders_indregard_garmin_developer_RegattaTimer_source_RegattaTimerApp_mc_22_65_stop:
+    }
+    [ @file = "/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerApp.mc"; @line = 27; ]
+    function getView() as RegattaTimerView {
+_Users_anders_indregard_garmin_developer_RegattaTimer_source_RegattaTimerApp_mc_27_43_start:
+[ "/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerApp.mc" 28 8 ]
+        %tmp.2 = getv ? :_view;
+        ret %tmp.2;
+_Users_anders_indregard_garmin_developer_RegattaTimer_source_RegattaTimerApp_mc_27_43_stop:
+    }
+}
+[ @file = "/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerApp.mc"; @line = 32; ]
+function getApp() as RegattaTimerApp {
+_Users_anders_indregard_garmin_developer_RegattaTimer_source_RegattaTimerApp_mc_32_37_start:
+[ "/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerApp.mc" 33 4 ]
+    %tmp.1 = getm $.Toybox.Application;
+    %tmp.2 = getv function %tmp.1 :getApp;
+    %tmp.3 = invoke %tmp.1 %tmp.2();
+    %tmp.4 = as %tmp.3 RegattaTimerApp;
+    ret %tmp.4;
+_Users_anders_indregard_garmin_developer_RegattaTimer_source_RegattaTimerApp_mc_32_37_stop:
+}
+[ @file = "/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerApp.mc"; @line = 36; ]
+function getView() as RegattaTimerView {
+_Users_anders_indregard_garmin_developer_RegattaTimer_source_RegattaTimerApp_mc_36_39_start:
+[ "/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerApp.mc" 37 4 ]
+    %tmp.1 = getm $.Toybox.Application;
+    %tmp.2 = getv function %tmp.1 :getApp;
+    %tmp.3 = invoke %tmp.1 %tmp.2();
+    %tmp.4 = getv function %tmp.3 :getView;
+    %tmp.5 = invoke %tmp.3 %tmp.4();
+    ret %tmp.5;
+_Users_anders_indregard_garmin_developer_RegattaTimer_source_RegattaTimerApp_mc_36_39_stop:
+}
+[ @file = "/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerApp.mc"; @line = 1; ]
+<init> {
+}
