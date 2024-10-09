@@ -51,9 +51,11 @@ class RegattaTimerDelegate extends WatchUi.BehaviorDelegate {
         else if (_timeLeft > 1 * 60) {
             _timeLeft = (1 * 60);
         }
+
+            return true;
+        } else {
+            return false;
         }
-        // Return true to consume the button press, or false to allow the system to handle it
-        return true;
     }
 
     function startCountdown() {

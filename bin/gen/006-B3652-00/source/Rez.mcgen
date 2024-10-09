@@ -10,6 +10,8 @@ module Rez {
     } // Drawables
 
     module Fonts {
+        (:initialized) var customFont as Symbol;
+        (:initialized) var customFont2 as Symbol;
     } // Fonts
 
     module JsonData {
@@ -17,13 +19,12 @@ module Rez {
 
     module Layouts {
         function MainLayout(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
-            var rez_cmp_local_text_app_title = new WatchUi.Text({:identifier=>"app_title", :color=>Graphics.COLOR_WHITE, :locX=>(240 * 0.5), :locY=>(240 * (15 / 100.0)), :text=>$.Rez.Strings.AppName, :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_MEDIUM});
+            var local_Rez_Fonts_customFont2 = (WatchUi.loadResource($.Rez.Fonts.customFont2) as WatchUi.FontResource);
+            var rez_cmp_local_text_race_timer = new WatchUi.Text({:identifier=>"race_timer", :color=>Graphics.COLOR_WHITE, :locX=>(240 * 0.5), :locY=>(240 * (20 / 100.0)), :text=>"10:00", :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>local_Rez_Fonts_customFont2});
 
-            var rez_cmp_local_text_race_timer = new WatchUi.Text({:identifier=>"race_timer", :color=>Graphics.COLOR_WHITE, :locX=>(240 * 0.5), :locY=>((240 - dc.getFontHeight(Graphics.FONT_NUMBER_THAI_HOT)) * 0.5), :text=>"10:00", :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_NUMBER_THAI_HOT});
+            var rez_cmp_local_text_clock = new WatchUi.Text({:identifier=>"clock", :color=>Graphics.COLOR_WHITE, :locX=>(240 * 0.5), :locY=>(240 * (75 / 100.0)), :text=>"12:00", :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_MEDIUM});
 
-            var rez_cmp_local_text_clock = new WatchUi.Text({:identifier=>"clock", :color=>Graphics.COLOR_WHITE, :locX=>(240 * 0.5), :locY=>(240 * (75 / 100.0)), :text=>"12:00", :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_SMALL});
-
-            return [rez_cmp_local_text_app_title, rez_cmp_local_text_race_timer, rez_cmp_local_text_clock] as Array<WatchUi.Drawable>;
+            return [rez_cmp_local_text_race_timer, rez_cmp_local_text_clock] as Array<WatchUi.Drawable>;
         }
     } // Layouts
 

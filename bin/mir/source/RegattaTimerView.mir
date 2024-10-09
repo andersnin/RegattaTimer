@@ -19,73 +19,84 @@ class RegattaTimerView extends WatchUi.View{
     [ @file = "/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerView.mc"; @line = 8; @position = 16; ]
     private
     var _clock;
-    [ @file = "/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerView.mc"; @line = 10; ]
+    [ @file = "/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerView.mc"; @line = 9; @position = 16; ]
+    private
+    var customFont = null;
+    [ @file = "/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerView.mc"; @line = 11; ]
     function initialize() as Void {
-_Users_anders_indregard_garmin_developer_RegattaTimer_source_RegattaTimerView_mc_10_26_start:
-[ "/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerView.mc" 11 8 ]
+_Users_anders_indregard_garmin_developer_RegattaTimer_source_RegattaTimerView_mc_11_26_start:
+[ "/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerView.mc" 12 8 ]
         %tmp.2 = getv ? :View;
         %tmp.3 = getv function %tmp.2 :initialize;
         invoke %tmp.2 %tmp.3();
-_Users_anders_indregard_garmin_developer_RegattaTimer_source_RegattaTimerView_mc_10_26_stop:
+_Users_anders_indregard_garmin_developer_RegattaTimer_source_RegattaTimerView_mc_11_26_stop:
     }
-    [ @file = "/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerView.mc"; @line = 15; ]
+    [ @file = "/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerView.mc"; @line = 16; ]
     function onLayout(dc as Dc) as Void {
-_Users_anders_indregard_garmin_developer_RegattaTimer_source_RegattaTimerView_mc_15_40_start:
-[ "/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerView.mc" 16 8 ]
-        %tmp.1 = self;
-        %tmp.2 = getv function %tmp.1 :setLayout;
+_Users_anders_indregard_garmin_developer_RegattaTimer_source_RegattaTimerView_mc_16_40_start:
+[ "/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerView.mc" 17 8 ]
+        %tmp.1 = getm $.Toybox.WatchUi;
+        %tmp.2 = getv function %tmp.1 :loadResource;
         %tmp.4 = getv ? :Rez;
-        %tmp.5 = getv %tmp.4 :Layouts;
-        %tmp.6 = getv function %tmp.5 :MainLayout;
-        %tmp.8 = lgetv %dc;
-        %tmp.9 = invoke %tmp.5 %tmp.6(%tmp.8);
-        invoke %tmp.1 %tmp.2(%tmp.9);
-[ "/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerView.mc" 18 8 ]
-        %tmp.10 = self;
-        %tmp.11 = getv function %tmp.10 :findDrawableById;
-        %tmp.12 = "race_timer";
-        %tmp.13 = invoke %tmp.10 %tmp.11(%tmp.12);
-        putv self :_raceTimer %tmp.13;
+        %tmp.5 = getv %tmp.4 :Fonts;
+        %tmp.6 = getv %tmp.5 :customFont;
+        %tmp.7 = invoke %tmp.1 %tmp.2(%tmp.6);
+        putv self :customFont %tmp.7;
 [ "/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerView.mc" 19 8 ]
-        %tmp.14 = self;
-        %tmp.15 = getv function %tmp.14 :findDrawableById;
-        %tmp.16 = "clock";
-        %tmp.17 = invoke %tmp.14 %tmp.15(%tmp.16);
-        putv self :_clock %tmp.17;
-_Users_anders_indregard_garmin_developer_RegattaTimer_source_RegattaTimerView_mc_15_40_stop:
+        %tmp.8 = self;
+        %tmp.9 = getv function %tmp.8 :setLayout;
+        %tmp.11 = getv ? :Rez;
+        %tmp.12 = getv %tmp.11 :Layouts;
+        %tmp.13 = getv function %tmp.12 :MainLayout;
+        %tmp.15 = lgetv %dc;
+        %tmp.16 = invoke %tmp.12 %tmp.13(%tmp.15);
+        invoke %tmp.8 %tmp.9(%tmp.16);
+[ "/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerView.mc" 20 8 ]
+        %tmp.17 = self;
+        %tmp.18 = getv function %tmp.17 :findDrawableById;
+        %tmp.19 = "race_timer";
+        %tmp.20 = invoke %tmp.17 %tmp.18(%tmp.19);
+        putv self :_raceTimer %tmp.20;
+[ "/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerView.mc" 21 8 ]
+        %tmp.21 = self;
+        %tmp.22 = getv function %tmp.21 :findDrawableById;
+        %tmp.23 = "clock";
+        %tmp.24 = invoke %tmp.21 %tmp.22(%tmp.23);
+        putv self :_clock %tmp.24;
+_Users_anders_indregard_garmin_developer_RegattaTimer_source_RegattaTimerView_mc_16_40_stop:
     }
-    [ @file = "/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerView.mc"; @line = 25; ]
+    [ @file = "/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerView.mc"; @line = 27; ]
     function onShow() as Void {
     }
-    [ @file = "/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerView.mc"; @line = 29; ]
+    [ @file = "/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerView.mc"; @line = 31; ]
     function onUpdate(dc as Dc) as Void {
-_Users_anders_indregard_garmin_developer_RegattaTimer_source_RegattaTimerView_mc_29_40_start:
-[ "/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerView.mc" 31 8 ]
+_Users_anders_indregard_garmin_developer_RegattaTimer_source_RegattaTimerView_mc_31_40_start:
+[ "/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerView.mc" 33 8 ]
         %tmp.1 = self;
         %tmp.2 = getv function %tmp.1 :setClockValue;
         invoke %tmp.1 %tmp.2();
-[ "/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerView.mc" 33 8 ]
+[ "/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerView.mc" 35 8 ]
         %tmp.4 = getv ? :View;
         %tmp.5 = getv function %tmp.4 :onUpdate;
         %tmp.7 = lgetv %dc;
         invoke %tmp.4 %tmp.5(%tmp.7);
-_Users_anders_indregard_garmin_developer_RegattaTimer_source_RegattaTimerView_mc_29_40_stop:
+_Users_anders_indregard_garmin_developer_RegattaTimer_source_RegattaTimerView_mc_31_40_stop:
     }
-    [ @file = "/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerView.mc"; @line = 39; ]
+    [ @file = "/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerView.mc"; @line = 41; ]
     function onHide() as Void {
     }
-    [ @file = "/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerView.mc"; @line = 42; ]
+    [ @file = "/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerView.mc"; @line = 44; ]
     function setClockValue() as Void {
-_Users_anders_indregard_garmin_developer_RegattaTimer_source_RegattaTimerView_mc_42_37_start:
-[ "/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerView.mc" 43 8 ]
-        [ "_Users_anders_indregard_garmin_developer_RegattaTimer_source_RegattaTimerView_mc_42_37_start" "_Users_anders_indregard_garmin_developer_RegattaTimer_source_RegattaTimerView_mc_42_37_stop" ]
+_Users_anders_indregard_garmin_developer_RegattaTimer_source_RegattaTimerView_mc_44_37_start:
+[ "/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerView.mc" 45 8 ]
+        [ "_Users_anders_indregard_garmin_developer_RegattaTimer_source_RegattaTimerView_mc_44_37_start" "_Users_anders_indregard_garmin_developer_RegattaTimer_source_RegattaTimerView_mc_44_37_stop" ]
         %currentTime.1 = local;
         %tmp.1 = getm $.Toybox.System;
         %tmp.2 = getv function %tmp.1 :getClockTime;
         %tmp.3 = invoke %tmp.1 %tmp.2();
         lputv %currentTime.1 %tmp.3;
-[ "/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerView.mc" 45 8 ]
-        [ "_Users_anders_indregard_garmin_developer_RegattaTimer_source_RegattaTimerView_mc_42_37_start" "_Users_anders_indregard_garmin_developer_RegattaTimer_source_RegattaTimerView_mc_42_37_stop" ]
+[ "/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerView.mc" 47 8 ]
+        [ "_Users_anders_indregard_garmin_developer_RegattaTimer_source_RegattaTimerView_mc_44_37_start" "_Users_anders_indregard_garmin_developer_RegattaTimer_source_RegattaTimerView_mc_44_37_stop" ]
         %timeString.2 = local;
         %tmp.4 = lgetv %currentTime.1;
         %tmp.5 = getv %tmp.4 :hour;
@@ -109,60 +120,60 @@ _Users_anders_indregard_garmin_developer_RegattaTimer_source_RegattaTimerView_mc
         %tmp.23 = invoke %tmp.20 %tmp.21(%tmp.22);
         %tmp.24 = add %tmp.18 %tmp.23;
         lputv %timeString.2 %tmp.24;
-[ "/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerView.mc" 51 8 ]
+[ "/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerView.mc" 53 8 ]
         %tmp.26 = getv ? :_clock;
         %tmp.27 = getv function %tmp.26 :setText;
         %tmp.29 = lgetv %timeString.2;
         invoke %tmp.26 %tmp.27(%tmp.29);
-[ "/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerView.mc" 54 8 ]
+[ "/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerView.mc" 56 8 ]
         %tmp.30 = getm $.Toybox.WatchUi;
         %tmp.31 = getv function %tmp.30 :requestUpdate;
         invoke %tmp.30 %tmp.31();
-_Users_anders_indregard_garmin_developer_RegattaTimer_source_RegattaTimerView_mc_42_37_stop:
+_Users_anders_indregard_garmin_developer_RegattaTimer_source_RegattaTimerView_mc_44_37_stop:
     }
-    [ @file = "/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerView.mc"; @line = 57; ]
+    [ @file = "/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerView.mc"; @line = 59; ]
     function setTimerValue(value, countDirection) as Void {
-_Users_anders_indregard_garmin_developer_RegattaTimer_source_RegattaTimerView_mc_57_58_start:
-[ "/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerView.mc" 59 8 ]
-        [ "_Users_anders_indregard_garmin_developer_RegattaTimer_source_RegattaTimerView_mc_57_58_start" "_Users_anders_indregard_garmin_developer_RegattaTimer_source_RegattaTimerView_mc_57_58_stop" ]
+_Users_anders_indregard_garmin_developer_RegattaTimer_source_RegattaTimerView_mc_59_58_start:
+[ "/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerView.mc" 61 8 ]
+        [ "_Users_anders_indregard_garmin_developer_RegattaTimer_source_RegattaTimerView_mc_59_58_start" "_Users_anders_indregard_garmin_developer_RegattaTimer_source_RegattaTimerView_mc_59_58_stop" ]
         %minutes.1 = local;
         %tmp.2 = lgetv %value;
         %tmp.3 = 60;
         %tmp.4 = div %tmp.2 %tmp.3;
         lputv %minutes.1 %tmp.4;
-[ "/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerView.mc" 60 8 ]
-        [ "_Users_anders_indregard_garmin_developer_RegattaTimer_source_RegattaTimerView_mc_57_58_start" "_Users_anders_indregard_garmin_developer_RegattaTimer_source_RegattaTimerView_mc_57_58_stop" ]
+[ "/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerView.mc" 62 8 ]
+        [ "_Users_anders_indregard_garmin_developer_RegattaTimer_source_RegattaTimerView_mc_59_58_start" "_Users_anders_indregard_garmin_developer_RegattaTimer_source_RegattaTimerView_mc_59_58_stop" ]
         %seconds.2 = local;
         %tmp.6 = lgetv %value;
         %tmp.7 = 60;
         %tmp.8 = mod %tmp.6 %tmp.7;
         lputv %seconds.2 %tmp.8;
-[ "/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerView.mc" 61 8 ]
-        [ "_Users_anders_indregard_garmin_developer_RegattaTimer_source_RegattaTimerView_mc_57_58_start" "_Users_anders_indregard_garmin_developer_RegattaTimer_source_RegattaTimerView_mc_57_58_stop" ]
+[ "/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerView.mc" 63 8 ]
+        [ "_Users_anders_indregard_garmin_developer_RegattaTimer_source_RegattaTimerView_mc_59_58_start" "_Users_anders_indregard_garmin_developer_RegattaTimer_source_RegattaTimerView_mc_59_58_stop" ]
         %secondsFormatted.3 = local;
-_Users_anders_indregard_garmin_developer_RegattaTimer_source_RegattaTimerView_mc_61_31_begin:
+_Users_anders_indregard_garmin_developer_RegattaTimer_source_RegattaTimerView_mc_63_31_begin:
         %tmp.10 = lgetv %seconds.2;
         %tmp.11 = 9;
         %tmp.12 = gt %tmp.10 %tmp.11;
-        bf %tmp.12 @_Users_anders_indregard_garmin_developer_RegattaTimer_source_RegattaTimerView_mc_61_31_false;
-_Users_anders_indregard_garmin_developer_RegattaTimer_source_RegattaTimerView_mc_61_31_true:
+        bf %tmp.12 @_Users_anders_indregard_garmin_developer_RegattaTimer_source_RegattaTimerView_mc_63_31_false;
+_Users_anders_indregard_garmin_developer_RegattaTimer_source_RegattaTimerView_mc_63_31_true:
         %tmp.13 = lgetv %seconds.2;
         %tmp.14 = getv function %tmp.13 :toString;
         %tmp.15 = invoke %tmp.13 %tmp.14();
         push %tmp.15;
-        goto @_Users_anders_indregard_garmin_developer_RegattaTimer_source_RegattaTimerView_mc_61_31_end;
-_Users_anders_indregard_garmin_developer_RegattaTimer_source_RegattaTimerView_mc_61_31_false:
+        goto @_Users_anders_indregard_garmin_developer_RegattaTimer_source_RegattaTimerView_mc_63_31_end;
+_Users_anders_indregard_garmin_developer_RegattaTimer_source_RegattaTimerView_mc_63_31_false:
         %tmp.16 = "0";
         %tmp.17 = lgetv %seconds.2;
         %tmp.18 = getv function %tmp.17 :toString;
         %tmp.19 = invoke %tmp.17 %tmp.18();
         %tmp.20 = add %tmp.16 %tmp.19;
         push %tmp.20;
-_Users_anders_indregard_garmin_developer_RegattaTimer_source_RegattaTimerView_mc_61_31_end:
-        %tmp.21 = phi [%tmp.12 @_Users_anders_indregard_garmin_developer_RegattaTimer_source_RegattaTimerView_mc_61_31_begin] [%tmp.15 @_Users_anders_indregard_garmin_developer_RegattaTimer_source_RegattaTimerView_mc_61_31_true] [%tmp.20 @_Users_anders_indregard_garmin_developer_RegattaTimer_source_RegattaTimerView_mc_61_31_false] [%tmp.21 @_Users_anders_indregard_garmin_developer_RegattaTimer_source_RegattaTimerView_mc_61_31_end];
+_Users_anders_indregard_garmin_developer_RegattaTimer_source_RegattaTimerView_mc_63_31_end:
+        %tmp.21 = phi [%tmp.12 @_Users_anders_indregard_garmin_developer_RegattaTimer_source_RegattaTimerView_mc_63_31_begin] [%tmp.15 @_Users_anders_indregard_garmin_developer_RegattaTimer_source_RegattaTimerView_mc_63_31_true] [%tmp.20 @_Users_anders_indregard_garmin_developer_RegattaTimer_source_RegattaTimerView_mc_63_31_false] [%tmp.21 @_Users_anders_indregard_garmin_developer_RegattaTimer_source_RegattaTimerView_mc_63_31_end];
         lputv %secondsFormatted.3 %tmp.21;
-[ "/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerView.mc" 62 8 ]
-        [ "_Users_anders_indregard_garmin_developer_RegattaTimer_source_RegattaTimerView_mc_57_58_start" "_Users_anders_indregard_garmin_developer_RegattaTimer_source_RegattaTimerView_mc_57_58_stop" ]
+[ "/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerView.mc" 64 8 ]
+        [ "_Users_anders_indregard_garmin_developer_RegattaTimer_source_RegattaTimerView_mc_59_58_start" "_Users_anders_indregard_garmin_developer_RegattaTimer_source_RegattaTimerView_mc_59_58_stop" ]
         %timeFormatted.4 = local;
         %tmp.22 = lgetv %minutes.1;
         %tmp.23 = getv function %tmp.22 :toString;
@@ -172,115 +183,115 @@ _Users_anders_indregard_garmin_developer_RegattaTimer_source_RegattaTimerView_mc
         %tmp.28 = lgetv %secondsFormatted.3;
         %tmp.29 = add %tmp.26 %tmp.28;
         lputv %timeFormatted.4 %tmp.29;
-[ "/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerView.mc" 65 8 ]
-_Users_anders_indregard_garmin_developer_RegattaTimer_source_RegattaTimerView_mc_65_8_if_stmt:
+[ "/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerView.mc" 67 8 ]
+_Users_anders_indregard_garmin_developer_RegattaTimer_source_RegattaTimerView_mc_67_8_if_stmt:
         %tmp.31 = lgetv %countDirection;
         %tmp.32 = not %tmp.31;
-        bf %tmp.32 @_Users_anders_indregard_garmin_developer_RegattaTimer_source_RegattaTimerView_mc_65_8_if_false;
-_Users_anders_indregard_garmin_developer_RegattaTimer_source_RegattaTimerView_mc_65_8_if_true:
-_Users_anders_indregard_garmin_developer_RegattaTimer_source_RegattaTimerView_mc_65_29_start:
-[ "/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerView.mc" 66 12 ]
-_Users_anders_indregard_garmin_developer_RegattaTimer_source_RegattaTimerView_mc_66_12_if_stmt:
+        bf %tmp.32 @_Users_anders_indregard_garmin_developer_RegattaTimer_source_RegattaTimerView_mc_67_8_if_false;
+_Users_anders_indregard_garmin_developer_RegattaTimer_source_RegattaTimerView_mc_67_8_if_true:
+_Users_anders_indregard_garmin_developer_RegattaTimer_source_RegattaTimerView_mc_67_29_start:
+[ "/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerView.mc" 68 12 ]
+_Users_anders_indregard_garmin_developer_RegattaTimer_source_RegattaTimerView_mc_68_12_if_stmt:
         %tmp.34 = lgetv %minutes.1;
         %tmp.35 = 10;
         %tmp.36 = gte %tmp.34 %tmp.35;
-        bf %tmp.36 @_Users_anders_indregard_garmin_developer_RegattaTimer_source_RegattaTimerView_mc_66_12_if_false;
-_Users_anders_indregard_garmin_developer_RegattaTimer_source_RegattaTimerView_mc_66_12_if_true:
-_Users_anders_indregard_garmin_developer_RegattaTimer_source_RegattaTimerView_mc_66_31_start:
-[ "/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerView.mc" 67 16 ]
+        bf %tmp.36 @_Users_anders_indregard_garmin_developer_RegattaTimer_source_RegattaTimerView_mc_68_12_if_false;
+_Users_anders_indregard_garmin_developer_RegattaTimer_source_RegattaTimerView_mc_68_12_if_true:
+_Users_anders_indregard_garmin_developer_RegattaTimer_source_RegattaTimerView_mc_68_31_start:
+[ "/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerView.mc" 69 16 ]
         %tmp.38 = getv ? :_raceTimer;
         %tmp.39 = getv function %tmp.38 :setColor;
         %tmp.40 = getm $.Toybox.Graphics;
         %tmp.41 = getv %tmp.40 :COLOR_WHITE;
         invoke %tmp.38 %tmp.39(%tmp.41);
-_Users_anders_indregard_garmin_developer_RegattaTimer_source_RegattaTimerView_mc_66_31_stop:
-        goto @_Users_anders_indregard_garmin_developer_RegattaTimer_source_RegattaTimerView_mc_66_12_if_end;
-_Users_anders_indregard_garmin_developer_RegattaTimer_source_RegattaTimerView_mc_66_12_if_false:
-[ "/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerView.mc" 68 19 ]
-_Users_anders_indregard_garmin_developer_RegattaTimer_source_RegattaTimerView_mc_68_19_if_stmt:
+_Users_anders_indregard_garmin_developer_RegattaTimer_source_RegattaTimerView_mc_68_31_stop:
+        goto @_Users_anders_indregard_garmin_developer_RegattaTimer_source_RegattaTimerView_mc_68_12_if_end;
+_Users_anders_indregard_garmin_developer_RegattaTimer_source_RegattaTimerView_mc_68_12_if_false:
+[ "/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerView.mc" 70 19 ]
+_Users_anders_indregard_garmin_developer_RegattaTimer_source_RegattaTimerView_mc_70_19_if_stmt:
         %tmp.43 = lgetv %minutes.1;
         %tmp.44 = 5;
         %tmp.45 = gte %tmp.43 %tmp.44;
-        bf %tmp.45 @_Users_anders_indregard_garmin_developer_RegattaTimer_source_RegattaTimerView_mc_68_19_if_false;
-_Users_anders_indregard_garmin_developer_RegattaTimer_source_RegattaTimerView_mc_68_19_if_true:
-_Users_anders_indregard_garmin_developer_RegattaTimer_source_RegattaTimerView_mc_68_37_start:
-[ "/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerView.mc" 69 16 ]
+        bf %tmp.45 @_Users_anders_indregard_garmin_developer_RegattaTimer_source_RegattaTimerView_mc_70_19_if_false;
+_Users_anders_indregard_garmin_developer_RegattaTimer_source_RegattaTimerView_mc_70_19_if_true:
+_Users_anders_indregard_garmin_developer_RegattaTimer_source_RegattaTimerView_mc_70_37_start:
+[ "/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerView.mc" 71 16 ]
         %tmp.47 = getv ? :_raceTimer;
         %tmp.48 = getv function %tmp.47 :setColor;
         %tmp.49 = getm $.Toybox.Graphics;
         %tmp.50 = getv %tmp.49 :COLOR_GREEN;
         invoke %tmp.47 %tmp.48(%tmp.50);
-_Users_anders_indregard_garmin_developer_RegattaTimer_source_RegattaTimerView_mc_68_37_stop:
-        goto @_Users_anders_indregard_garmin_developer_RegattaTimer_source_RegattaTimerView_mc_68_19_if_end;
-_Users_anders_indregard_garmin_developer_RegattaTimer_source_RegattaTimerView_mc_68_19_if_false:
-[ "/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerView.mc" 70 19 ]
-_Users_anders_indregard_garmin_developer_RegattaTimer_source_RegattaTimerView_mc_70_19_if_stmt:
-        %tmp.52 = lgetv %minutes.1;
-        %tmp.53 = 4;
-        %tmp.54 = gte %tmp.52 %tmp.53;
-        bf %tmp.54 @_Users_anders_indregard_garmin_developer_RegattaTimer_source_RegattaTimerView_mc_70_19_if_false;
-_Users_anders_indregard_garmin_developer_RegattaTimer_source_RegattaTimerView_mc_70_19_if_true:
-_Users_anders_indregard_garmin_developer_RegattaTimer_source_RegattaTimerView_mc_70_37_start:
-[ "/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerView.mc" 71 16 ]
-        %tmp.56 = getv ? :_raceTimer;
-        %tmp.57 = getv function %tmp.56 :setColor;
-        %tmp.58 = getm $.Toybox.Graphics;
-        %tmp.59 = getv %tmp.58 :COLOR_YELLOW;
-        invoke %tmp.56 %tmp.57(%tmp.59);
 _Users_anders_indregard_garmin_developer_RegattaTimer_source_RegattaTimerView_mc_70_37_stop:
         goto @_Users_anders_indregard_garmin_developer_RegattaTimer_source_RegattaTimerView_mc_70_19_if_end;
 _Users_anders_indregard_garmin_developer_RegattaTimer_source_RegattaTimerView_mc_70_19_if_false:
 [ "/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerView.mc" 72 19 ]
 _Users_anders_indregard_garmin_developer_RegattaTimer_source_RegattaTimerView_mc_72_19_if_stmt:
-        %tmp.61 = lgetv %minutes.1;
-        %tmp.62 = 1;
-        %tmp.63 = gte %tmp.61 %tmp.62;
-        bf %tmp.63 @_Users_anders_indregard_garmin_developer_RegattaTimer_source_RegattaTimerView_mc_72_19_if_false;
+        %tmp.52 = lgetv %minutes.1;
+        %tmp.53 = 4;
+        %tmp.54 = gte %tmp.52 %tmp.53;
+        bf %tmp.54 @_Users_anders_indregard_garmin_developer_RegattaTimer_source_RegattaTimerView_mc_72_19_if_false;
 _Users_anders_indregard_garmin_developer_RegattaTimer_source_RegattaTimerView_mc_72_19_if_true:
 _Users_anders_indregard_garmin_developer_RegattaTimer_source_RegattaTimerView_mc_72_37_start:
 [ "/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerView.mc" 73 16 ]
+        %tmp.56 = getv ? :_raceTimer;
+        %tmp.57 = getv function %tmp.56 :setColor;
+        %tmp.58 = getm $.Toybox.Graphics;
+        %tmp.59 = getv %tmp.58 :COLOR_YELLOW;
+        invoke %tmp.56 %tmp.57(%tmp.59);
+_Users_anders_indregard_garmin_developer_RegattaTimer_source_RegattaTimerView_mc_72_37_stop:
+        goto @_Users_anders_indregard_garmin_developer_RegattaTimer_source_RegattaTimerView_mc_72_19_if_end;
+_Users_anders_indregard_garmin_developer_RegattaTimer_source_RegattaTimerView_mc_72_19_if_false:
+[ "/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerView.mc" 74 19 ]
+_Users_anders_indregard_garmin_developer_RegattaTimer_source_RegattaTimerView_mc_74_19_if_stmt:
+        %tmp.61 = lgetv %minutes.1;
+        %tmp.62 = 1;
+        %tmp.63 = gte %tmp.61 %tmp.62;
+        bf %tmp.63 @_Users_anders_indregard_garmin_developer_RegattaTimer_source_RegattaTimerView_mc_74_19_if_false;
+_Users_anders_indregard_garmin_developer_RegattaTimer_source_RegattaTimerView_mc_74_19_if_true:
+_Users_anders_indregard_garmin_developer_RegattaTimer_source_RegattaTimerView_mc_74_37_start:
+[ "/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerView.mc" 75 16 ]
         %tmp.65 = getv ? :_raceTimer;
         %tmp.66 = getv function %tmp.65 :setColor;
         %tmp.67 = getm $.Toybox.Graphics;
         %tmp.68 = getv %tmp.67 :COLOR_ORANGE;
         invoke %tmp.65 %tmp.66(%tmp.68);
-_Users_anders_indregard_garmin_developer_RegattaTimer_source_RegattaTimerView_mc_72_37_stop:
-        goto @_Users_anders_indregard_garmin_developer_RegattaTimer_source_RegattaTimerView_mc_72_19_if_end;
-_Users_anders_indregard_garmin_developer_RegattaTimer_source_RegattaTimerView_mc_72_19_if_false:
-_Users_anders_indregard_garmin_developer_RegattaTimer_source_RegattaTimerView_mc_74_19_start:
-[ "/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerView.mc" 75 16 ]
+_Users_anders_indregard_garmin_developer_RegattaTimer_source_RegattaTimerView_mc_74_37_stop:
+        goto @_Users_anders_indregard_garmin_developer_RegattaTimer_source_RegattaTimerView_mc_74_19_if_end;
+_Users_anders_indregard_garmin_developer_RegattaTimer_source_RegattaTimerView_mc_74_19_if_false:
+_Users_anders_indregard_garmin_developer_RegattaTimer_source_RegattaTimerView_mc_76_19_start:
+[ "/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerView.mc" 77 16 ]
         %tmp.70 = getv ? :_raceTimer;
         %tmp.71 = getv function %tmp.70 :setColor;
         %tmp.72 = getm $.Toybox.Graphics;
         %tmp.73 = getv %tmp.72 :COLOR_RED;
         invoke %tmp.70 %tmp.71(%tmp.73);
-_Users_anders_indregard_garmin_developer_RegattaTimer_source_RegattaTimerView_mc_74_19_stop:
+_Users_anders_indregard_garmin_developer_RegattaTimer_source_RegattaTimerView_mc_76_19_stop:
+_Users_anders_indregard_garmin_developer_RegattaTimer_source_RegattaTimerView_mc_74_19_if_end:
 _Users_anders_indregard_garmin_developer_RegattaTimer_source_RegattaTimerView_mc_72_19_if_end:
 _Users_anders_indregard_garmin_developer_RegattaTimer_source_RegattaTimerView_mc_70_19_if_end:
-_Users_anders_indregard_garmin_developer_RegattaTimer_source_RegattaTimerView_mc_68_19_if_end:
-_Users_anders_indregard_garmin_developer_RegattaTimer_source_RegattaTimerView_mc_66_12_if_end:
-_Users_anders_indregard_garmin_developer_RegattaTimer_source_RegattaTimerView_mc_65_29_stop:
-        goto @_Users_anders_indregard_garmin_developer_RegattaTimer_source_RegattaTimerView_mc_65_8_if_end;
-_Users_anders_indregard_garmin_developer_RegattaTimer_source_RegattaTimerView_mc_65_8_if_false:
-_Users_anders_indregard_garmin_developer_RegattaTimer_source_RegattaTimerView_mc_77_15_start:
-[ "/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerView.mc" 78 12 ]
+_Users_anders_indregard_garmin_developer_RegattaTimer_source_RegattaTimerView_mc_68_12_if_end:
+_Users_anders_indregard_garmin_developer_RegattaTimer_source_RegattaTimerView_mc_67_29_stop:
+        goto @_Users_anders_indregard_garmin_developer_RegattaTimer_source_RegattaTimerView_mc_67_8_if_end;
+_Users_anders_indregard_garmin_developer_RegattaTimer_source_RegattaTimerView_mc_67_8_if_false:
+_Users_anders_indregard_garmin_developer_RegattaTimer_source_RegattaTimerView_mc_79_15_start:
+[ "/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerView.mc" 80 12 ]
         %tmp.75 = getv ? :_raceTimer;
         %tmp.76 = getv function %tmp.75 :setColor;
         %tmp.77 = getm $.Toybox.Graphics;
         %tmp.78 = getv %tmp.77 :COLOR_WHITE;
         invoke %tmp.75 %tmp.76(%tmp.78);
-_Users_anders_indregard_garmin_developer_RegattaTimer_source_RegattaTimerView_mc_77_15_stop:
-_Users_anders_indregard_garmin_developer_RegattaTimer_source_RegattaTimerView_mc_65_8_if_end:
-[ "/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerView.mc" 81 8 ]
+_Users_anders_indregard_garmin_developer_RegattaTimer_source_RegattaTimerView_mc_79_15_stop:
+_Users_anders_indregard_garmin_developer_RegattaTimer_source_RegattaTimerView_mc_67_8_if_end:
+[ "/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerView.mc" 83 8 ]
         %tmp.80 = getv ? :_raceTimer;
         %tmp.81 = getv function %tmp.80 :setText;
         %tmp.83 = lgetv %timeFormatted.4;
         invoke %tmp.80 %tmp.81(%tmp.83);
-[ "/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerView.mc" 82 8 ]
+[ "/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerView.mc" 84 8 ]
         %tmp.84 = getm $.Toybox.WatchUi;
         %tmp.85 = getv function %tmp.84 :requestUpdate;
         invoke %tmp.84 %tmp.85();
-_Users_anders_indregard_garmin_developer_RegattaTimer_source_RegattaTimerView_mc_57_58_stop:
+_Users_anders_indregard_garmin_developer_RegattaTimer_source_RegattaTimerView_mc_59_58_stop:
     }
 }
 [ @file = "/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerView.mc"; @line = 1; ]

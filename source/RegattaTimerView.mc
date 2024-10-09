@@ -6,6 +6,7 @@ class RegattaTimerView extends WatchUi.View {
 
     private var _raceTimer;
     private var _clock; 
+    private var customFont = null;
 
     function initialize() {
         View.initialize();
@@ -13,6 +14,8 @@ class RegattaTimerView extends WatchUi.View {
 
     // Load your resources here
     function onLayout(dc as Dc) as Void {
+        customFont = WatchUi.loadResource(Rez.Fonts.customFont);
+
         setLayout(Rez.Layouts.MainLayout(dc));
         _raceTimer = findDrawableById("race_timer");
         _clock = findDrawableById("clock");

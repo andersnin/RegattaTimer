@@ -6,124 +6,126 @@
         <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerApp.mc" id="1" lineNum="33" parent="globals" pc="268435470" symbol="getApp"/>
         <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/bin/gen/006-B3652-00/source/Rez.mcgen" id="2" lineNum="7" parent="globals/Rez" pc="268435486" symbol="&lt;init&gt;"/>
         <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerView.mc" id="3" lineNum="5" parent="globals/RegattaTimerView" pc="268435510" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerView.mc" id="5" lineNum="42" parent="globals/RegattaTimerView" pc="268435529" symbol="setClockValue"/>
-        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerView.mc" id="5" lineNum="43" parent="globals/RegattaTimerView" pc="268435533" symbol="setClockValue"/>
-        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerView.mc" id="5" lineNum="45" parent="globals/RegattaTimerView" pc="268435550" symbol="setClockValue"/>
-        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerView.mc" id="5" lineNum="51" parent="globals/RegattaTimerView" pc="268435632" symbol="setClockValue"/>
-        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerView.mc" id="5" lineNum="54" parent="globals/RegattaTimerView" pc="268435652" symbol="setClockValue"/>
-        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerView.mc" id="6" lineNum="15" parent="globals/RegattaTimerView" pc="268435669" symbol="onLayout"/>
-        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerView.mc" id="6" lineNum="16" parent="globals/RegattaTimerView" pc="268435671" symbol="onLayout"/>
-        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerView.mc" id="6" lineNum="18" parent="globals/RegattaTimerView" pc="268435712" symbol="onLayout"/>
-        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerView.mc" id="6" lineNum="19" parent="globals/RegattaTimerView" pc="268435736" symbol="onLayout"/>
-        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerView.mc" id="7" lineNum="10" parent="globals/RegattaTimerView" pc="268435761" symbol="initialize"/>
-        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerView.mc" id="7" lineNum="11" parent="globals/RegattaTimerView" pc="268435763" symbol="initialize"/>
-        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerView.mc" id="9" lineNum="57" parent="globals/RegattaTimerView" pc="268435782" symbol="setTimerValue"/>
-        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerView.mc" id="9" lineNum="59" parent="globals/RegattaTimerView" pc="268435786" symbol="setTimerValue"/>
-        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerView.mc" id="9" lineNum="60" parent="globals/RegattaTimerView" pc="268435796" symbol="setTimerValue"/>
-        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerView.mc" id="9" lineNum="61" parent="globals/RegattaTimerView" pc="268435806" symbol="setTimerValue"/>
-        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerView.mc" id="9" lineNum="62" parent="globals/RegattaTimerView" pc="268435850" symbol="setTimerValue"/>
-        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerView.mc" id="9" lineNum="65" parent="globals/RegattaTimerView" pc="268435872" symbol="setTimerValue"/>
-        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerView.mc" id="9" lineNum="66" parent="globals/RegattaTimerView" pc="268435878" symbol="setTimerValue"/>
-        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerView.mc" id="9" lineNum="67" parent="globals/RegattaTimerView" pc="268435889" symbol="setTimerValue"/>
-        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerView.mc" id="9" lineNum="68" parent="globals/RegattaTimerView" pc="268435915" symbol="setTimerValue"/>
-        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerView.mc" id="9" lineNum="69" parent="globals/RegattaTimerView" pc="268435926" symbol="setTimerValue"/>
-        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerView.mc" id="9" lineNum="70" parent="globals/RegattaTimerView" pc="268435952" symbol="setTimerValue"/>
-        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerView.mc" id="9" lineNum="71" parent="globals/RegattaTimerView" pc="268435963" symbol="setTimerValue"/>
-        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerView.mc" id="9" lineNum="72" parent="globals/RegattaTimerView" pc="268435989" symbol="setTimerValue"/>
-        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerView.mc" id="9" lineNum="73" parent="globals/RegattaTimerView" pc="268436000" symbol="setTimerValue"/>
-        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerView.mc" id="9" lineNum="75" parent="globals/RegattaTimerView" pc="268436026" symbol="setTimerValue"/>
-        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerView.mc" id="9" lineNum="78" parent="globals/RegattaTimerView" pc="268436052" symbol="setTimerValue"/>
-        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerView.mc" id="9" lineNum="81" parent="globals/RegattaTimerView" pc="268436075" symbol="setTimerValue"/>
-        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerView.mc" id="9" lineNum="82" parent="globals/RegattaTimerView" pc="268436095" symbol="setTimerValue"/>
-        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerView.mc" id="10" lineNum="29" parent="globals/RegattaTimerView" pc="268436112" symbol="onUpdate"/>
-        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerView.mc" id="10" lineNum="31" parent="globals/RegattaTimerView" pc="268436114" symbol="onUpdate"/>
-        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerView.mc" id="10" lineNum="33" parent="globals/RegattaTimerView" pc="268436126" symbol="onUpdate"/>
-        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerApp.mc" id="11" lineNum="5" parent="globals/RegattaTimerApp" pc="268436147" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerApp.mc" id="12" lineNum="14" parent="globals/RegattaTimerApp" pc="268436166" symbol="onStart"/>
-        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerApp.mc" id="13" lineNum="22" parent="globals/RegattaTimerApp" pc="268436169" symbol="getInitialView"/>
-        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerApp.mc" id="13" lineNum="23" parent="globals/RegattaTimerApp" pc="268436171" symbol="getInitialView"/>
-        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerApp.mc" id="13" lineNum="24" parent="globals/RegattaTimerApp" pc="268436205" symbol="getInitialView"/>
-        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerApp.mc" id="14" lineNum="9" parent="globals/RegattaTimerApp" pc="268436262" symbol="initialize"/>
-        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerApp.mc" id="14" lineNum="10" parent="globals/RegattaTimerApp" pc="268436264" symbol="initialize"/>
-        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerApp.mc" id="15" lineNum="27" parent="globals/RegattaTimerApp" pc="268436283" symbol="getView"/>
-        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerApp.mc" id="15" lineNum="28" parent="globals/RegattaTimerApp" pc="268436285" symbol="getView"/>
-        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerApp.mc" id="16" lineNum="18" parent="globals/RegattaTimerApp" pc="268436294" symbol="onStop"/>
-        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerDelegate.mc" id="17" lineNum="7" parent="globals/RegattaTimerDelegate" pc="268436297" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerDelegate.mc" id="17" lineNum="18" parent="globals/RegattaTimerDelegate" pc="268436315" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerDelegate.mc" id="18" lineNum="86" parent="globals/RegattaTimerDelegate" pc="268436335" symbol="vibrate"/>
-        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerDelegate.mc" id="18" lineNum="87" parent="globals/RegattaTimerDelegate" pc="268436337" symbol="vibrate"/>
-        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerDelegate.mc" id="18" lineNum="88" parent="globals/RegattaTimerDelegate" pc="268436372" symbol="vibrate"/>
-        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerDelegate.mc" id="18" lineNum="90" parent="globals/RegattaTimerDelegate" pc="268436438" symbol="vibrate"/>
-        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerDelegate.mc" id="18" lineNum="91" parent="globals/RegattaTimerDelegate" pc="268436457" symbol="vibrate"/>
-        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerDelegate.mc" id="18" lineNum="92" parent="globals/RegattaTimerDelegate" pc="268436491" symbol="vibrate"/>
-        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerDelegate.mc" id="19" lineNum="24" parent="globals/RegattaTimerDelegate" pc="268436536" symbol="onSelect"/>
-        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerDelegate.mc" id="19" lineNum="25" parent="globals/RegattaTimerDelegate" pc="268436538" symbol="onSelect"/>
-        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerDelegate.mc" id="19" lineNum="27" parent="globals/RegattaTimerDelegate" pc="268436554" symbol="onSelect"/>
-        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerDelegate.mc" id="19" lineNum="28" parent="globals/RegattaTimerDelegate" pc="268436568" symbol="onSelect"/>
-        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerDelegate.mc" id="19" lineNum="29" parent="globals/RegattaTimerDelegate" pc="268436578" symbol="onSelect"/>
-        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerDelegate.mc" id="19" lineNum="30" parent="globals/RegattaTimerDelegate" pc="268436593" symbol="onSelect"/>
-        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerDelegate.mc" id="19" lineNum="31" parent="globals/RegattaTimerDelegate" pc="268436607" symbol="onSelect"/>
-        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerDelegate.mc" id="19" lineNum="32" parent="globals/RegattaTimerDelegate" pc="268436617" symbol="onSelect"/>
-        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerDelegate.mc" id="19" lineNum="33" parent="globals/RegattaTimerDelegate" pc="268436627" symbol="onSelect"/>
-        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerDelegate.mc" id="19" lineNum="34" parent="globals/RegattaTimerDelegate" pc="268436645" symbol="onSelect"/>
-        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerDelegate.mc" id="19" lineNum="36" parent="globals/RegattaTimerDelegate" pc="268436682" symbol="onSelect"/>
-        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerDelegate.mc" id="20" lineNum="39" parent="globals/RegattaTimerDelegate" pc="268436685" symbol="onBack"/>
-        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerDelegate.mc" id="20" lineNum="41" parent="globals/RegattaTimerDelegate" pc="268436687" symbol="onBack"/>
-        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerDelegate.mc" id="20" lineNum="43" parent="globals/RegattaTimerDelegate" pc="268436718" symbol="onBack"/>
-        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerDelegate.mc" id="20" lineNum="44" parent="globals/RegattaTimerDelegate" pc="268436735" symbol="onBack"/>
-        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerDelegate.mc" id="20" lineNum="47" parent="globals/RegattaTimerDelegate" pc="268436751" symbol="onBack"/>
-        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerDelegate.mc" id="20" lineNum="48" parent="globals/RegattaTimerDelegate" pc="268436768" symbol="onBack"/>
-        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerDelegate.mc" id="20" lineNum="51" parent="globals/RegattaTimerDelegate" pc="268436784" symbol="onBack"/>
-        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerDelegate.mc" id="20" lineNum="52" parent="globals/RegattaTimerDelegate" pc="268436801" symbol="onBack"/>
-        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerDelegate.mc" id="20" lineNum="56" parent="globals/RegattaTimerDelegate" pc="268436820" symbol="onBack"/>
-        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerDelegate.mc" id="21" lineNum="59" parent="globals/RegattaTimerDelegate" pc="268436823" symbol="startCountdown"/>
-        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerDelegate.mc" id="21" lineNum="60" parent="globals/RegattaTimerDelegate" pc="268436825" symbol="startCountdown"/>
-        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerDelegate.mc" id="21" lineNum="61" parent="globals/RegattaTimerDelegate" pc="268436859" symbol="startCountdown"/>
-        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerDelegate.mc" id="22" lineNum="64" parent="globals/RegattaTimerDelegate" pc="268436901" symbol="updateCountdownValue"/>
-        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerDelegate.mc" id="22" lineNum="65" parent="globals/RegattaTimerDelegate" pc="268436903" symbol="updateCountdownValue"/>
-        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerDelegate.mc" id="22" lineNum="66" parent="globals/RegattaTimerDelegate" pc="268436920" symbol="updateCountdownValue"/>
-        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerDelegate.mc" id="22" lineNum="67" parent="globals/RegattaTimerDelegate" pc="268436930" symbol="updateCountdownValue"/>
-        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerDelegate.mc" id="22" lineNum="68" parent="globals/RegattaTimerDelegate" pc="268436945" symbol="updateCountdownValue"/>
-        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerDelegate.mc" id="22" lineNum="72" parent="globals/RegattaTimerDelegate" pc="268437017" symbol="updateCountdownValue"/>
-        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerDelegate.mc" id="22" lineNum="73" parent="globals/RegattaTimerDelegate" pc="268437028" symbol="updateCountdownValue"/>
-        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerDelegate.mc" id="22" lineNum="75" parent="globals/RegattaTimerDelegate" pc="268437050" symbol="updateCountdownValue"/>
-        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerDelegate.mc" id="22" lineNum="79" parent="globals/RegattaTimerDelegate" pc="268437069" symbol="updateCountdownValue"/>
-        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerDelegate.mc" id="22" lineNum="80" parent="globals/RegattaTimerDelegate" pc="268437118" symbol="updateCountdownValue"/>
-        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerDelegate.mc" id="22" lineNum="81" parent="globals/RegattaTimerDelegate" pc="268437140" symbol="updateCountdownValue"/>
-        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerDelegate.mc" id="22" lineNum="83" parent="globals/RegattaTimerDelegate" pc="268437155" symbol="updateCountdownValue"/>
-        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerDelegate.mc" id="23" lineNum="20" parent="globals/RegattaTimerDelegate" pc="268437190" symbol="initialize"/>
-        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerDelegate.mc" id="23" lineNum="21" parent="globals/RegattaTimerDelegate" pc="268437192" symbol="initialize"/>
-        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerApp.mc" id="24" lineNum="36" parent="globals" pc="268437211" symbol="getView"/>
-        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerApp.mc" id="24" lineNum="37" parent="globals" pc="268437221" symbol="getView"/>
-        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/bin/gen/006-B3652-00/source/Rez.mcgen" id="25" lineNum="19" parent="globals/Rez/Layouts" pc="268437246" symbol="MainLayout"/>
-        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/bin/gen/006-B3652-00/source/Rez.mcgen" id="25" lineNum="20" parent="globals/Rez/Layouts" pc="268437258" symbol="MainLayout"/>
-        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/bin/gen/006-B3652-00/source/Rez.mcgen" id="25" lineNum="22" parent="globals/Rez/Layouts" pc="268437402" symbol="MainLayout"/>
-        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/bin/gen/006-B3652-00/source/Rez.mcgen" id="25" lineNum="24" parent="globals/Rez/Layouts" pc="268437550" symbol="MainLayout"/>
-        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/bin/gen/006-B3652-00/source/Rez.mcgen" id="25" lineNum="26" parent="globals/Rez/Layouts" pc="268437675" symbol="MainLayout"/>
+        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerView.mc" id="5" lineNum="44" parent="globals/RegattaTimerView" pc="268435529" symbol="setClockValue"/>
+        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerView.mc" id="5" lineNum="45" parent="globals/RegattaTimerView" pc="268435533" symbol="setClockValue"/>
+        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerView.mc" id="5" lineNum="47" parent="globals/RegattaTimerView" pc="268435550" symbol="setClockValue"/>
+        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerView.mc" id="5" lineNum="53" parent="globals/RegattaTimerView" pc="268435632" symbol="setClockValue"/>
+        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerView.mc" id="5" lineNum="56" parent="globals/RegattaTimerView" pc="268435652" symbol="setClockValue"/>
+        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerView.mc" id="6" lineNum="16" parent="globals/RegattaTimerView" pc="268435669" symbol="onLayout"/>
+        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerView.mc" id="6" lineNum="17" parent="globals/RegattaTimerView" pc="268435671" symbol="onLayout"/>
+        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerView.mc" id="6" lineNum="19" parent="globals/RegattaTimerView" pc="268435718" symbol="onLayout"/>
+        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerView.mc" id="6" lineNum="20" parent="globals/RegattaTimerView" pc="268435759" symbol="onLayout"/>
+        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerView.mc" id="6" lineNum="21" parent="globals/RegattaTimerView" pc="268435783" symbol="onLayout"/>
+        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerView.mc" id="7" lineNum="11" parent="globals/RegattaTimerView" pc="268435808" symbol="initialize"/>
+        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerView.mc" id="7" lineNum="12" parent="globals/RegattaTimerView" pc="268435810" symbol="initialize"/>
+        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerView.mc" id="9" lineNum="59" parent="globals/RegattaTimerView" pc="268435829" symbol="setTimerValue"/>
+        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerView.mc" id="9" lineNum="61" parent="globals/RegattaTimerView" pc="268435833" symbol="setTimerValue"/>
+        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerView.mc" id="9" lineNum="62" parent="globals/RegattaTimerView" pc="268435843" symbol="setTimerValue"/>
+        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerView.mc" id="9" lineNum="63" parent="globals/RegattaTimerView" pc="268435853" symbol="setTimerValue"/>
+        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerView.mc" id="9" lineNum="64" parent="globals/RegattaTimerView" pc="268435897" symbol="setTimerValue"/>
+        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerView.mc" id="9" lineNum="67" parent="globals/RegattaTimerView" pc="268435919" symbol="setTimerValue"/>
+        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerView.mc" id="9" lineNum="68" parent="globals/RegattaTimerView" pc="268435925" symbol="setTimerValue"/>
+        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerView.mc" id="9" lineNum="69" parent="globals/RegattaTimerView" pc="268435936" symbol="setTimerValue"/>
+        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerView.mc" id="9" lineNum="70" parent="globals/RegattaTimerView" pc="268435962" symbol="setTimerValue"/>
+        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerView.mc" id="9" lineNum="71" parent="globals/RegattaTimerView" pc="268435973" symbol="setTimerValue"/>
+        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerView.mc" id="9" lineNum="72" parent="globals/RegattaTimerView" pc="268435999" symbol="setTimerValue"/>
+        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerView.mc" id="9" lineNum="73" parent="globals/RegattaTimerView" pc="268436010" symbol="setTimerValue"/>
+        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerView.mc" id="9" lineNum="74" parent="globals/RegattaTimerView" pc="268436036" symbol="setTimerValue"/>
+        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerView.mc" id="9" lineNum="75" parent="globals/RegattaTimerView" pc="268436047" symbol="setTimerValue"/>
+        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerView.mc" id="9" lineNum="77" parent="globals/RegattaTimerView" pc="268436073" symbol="setTimerValue"/>
+        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerView.mc" id="9" lineNum="80" parent="globals/RegattaTimerView" pc="268436099" symbol="setTimerValue"/>
+        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerView.mc" id="9" lineNum="83" parent="globals/RegattaTimerView" pc="268436122" symbol="setTimerValue"/>
+        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerView.mc" id="9" lineNum="84" parent="globals/RegattaTimerView" pc="268436142" symbol="setTimerValue"/>
+        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerView.mc" id="10" lineNum="31" parent="globals/RegattaTimerView" pc="268436159" symbol="onUpdate"/>
+        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerView.mc" id="10" lineNum="33" parent="globals/RegattaTimerView" pc="268436161" symbol="onUpdate"/>
+        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerView.mc" id="10" lineNum="35" parent="globals/RegattaTimerView" pc="268436173" symbol="onUpdate"/>
+        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerApp.mc" id="11" lineNum="5" parent="globals/RegattaTimerApp" pc="268436194" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerApp.mc" id="12" lineNum="14" parent="globals/RegattaTimerApp" pc="268436213" symbol="onStart"/>
+        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerApp.mc" id="13" lineNum="22" parent="globals/RegattaTimerApp" pc="268436216" symbol="getInitialView"/>
+        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerApp.mc" id="13" lineNum="23" parent="globals/RegattaTimerApp" pc="268436218" symbol="getInitialView"/>
+        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerApp.mc" id="13" lineNum="24" parent="globals/RegattaTimerApp" pc="268436252" symbol="getInitialView"/>
+        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerApp.mc" id="14" lineNum="9" parent="globals/RegattaTimerApp" pc="268436309" symbol="initialize"/>
+        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerApp.mc" id="14" lineNum="10" parent="globals/RegattaTimerApp" pc="268436311" symbol="initialize"/>
+        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerApp.mc" id="15" lineNum="27" parent="globals/RegattaTimerApp" pc="268436330" symbol="getView"/>
+        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerApp.mc" id="15" lineNum="28" parent="globals/RegattaTimerApp" pc="268436332" symbol="getView"/>
+        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerApp.mc" id="16" lineNum="18" parent="globals/RegattaTimerApp" pc="268436341" symbol="onStop"/>
+        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerDelegate.mc" id="17" lineNum="7" parent="globals/RegattaTimerDelegate" pc="268436344" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerDelegate.mc" id="17" lineNum="18" parent="globals/RegattaTimerDelegate" pc="268436362" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerDelegate.mc" id="18" lineNum="88" parent="globals/RegattaTimerDelegate" pc="268436382" symbol="vibrate"/>
+        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerDelegate.mc" id="18" lineNum="89" parent="globals/RegattaTimerDelegate" pc="268436384" symbol="vibrate"/>
+        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerDelegate.mc" id="18" lineNum="90" parent="globals/RegattaTimerDelegate" pc="268436419" symbol="vibrate"/>
+        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerDelegate.mc" id="18" lineNum="92" parent="globals/RegattaTimerDelegate" pc="268436485" symbol="vibrate"/>
+        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerDelegate.mc" id="18" lineNum="93" parent="globals/RegattaTimerDelegate" pc="268436504" symbol="vibrate"/>
+        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerDelegate.mc" id="18" lineNum="94" parent="globals/RegattaTimerDelegate" pc="268436538" symbol="vibrate"/>
+        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerDelegate.mc" id="19" lineNum="24" parent="globals/RegattaTimerDelegate" pc="268436583" symbol="onSelect"/>
+        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerDelegate.mc" id="19" lineNum="25" parent="globals/RegattaTimerDelegate" pc="268436585" symbol="onSelect"/>
+        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerDelegate.mc" id="19" lineNum="27" parent="globals/RegattaTimerDelegate" pc="268436601" symbol="onSelect"/>
+        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerDelegate.mc" id="19" lineNum="28" parent="globals/RegattaTimerDelegate" pc="268436615" symbol="onSelect"/>
+        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerDelegate.mc" id="19" lineNum="29" parent="globals/RegattaTimerDelegate" pc="268436625" symbol="onSelect"/>
+        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerDelegate.mc" id="19" lineNum="30" parent="globals/RegattaTimerDelegate" pc="268436640" symbol="onSelect"/>
+        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerDelegate.mc" id="19" lineNum="31" parent="globals/RegattaTimerDelegate" pc="268436654" symbol="onSelect"/>
+        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerDelegate.mc" id="19" lineNum="32" parent="globals/RegattaTimerDelegate" pc="268436664" symbol="onSelect"/>
+        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerDelegate.mc" id="19" lineNum="33" parent="globals/RegattaTimerDelegate" pc="268436674" symbol="onSelect"/>
+        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerDelegate.mc" id="19" lineNum="34" parent="globals/RegattaTimerDelegate" pc="268436692" symbol="onSelect"/>
+        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerDelegate.mc" id="19" lineNum="36" parent="globals/RegattaTimerDelegate" pc="268436729" symbol="onSelect"/>
+        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerDelegate.mc" id="20" lineNum="39" parent="globals/RegattaTimerDelegate" pc="268436732" symbol="onBack"/>
+        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerDelegate.mc" id="20" lineNum="41" parent="globals/RegattaTimerDelegate" pc="268436734" symbol="onBack"/>
+        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerDelegate.mc" id="20" lineNum="43" parent="globals/RegattaTimerDelegate" pc="268436765" symbol="onBack"/>
+        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerDelegate.mc" id="20" lineNum="44" parent="globals/RegattaTimerDelegate" pc="268436782" symbol="onBack"/>
+        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerDelegate.mc" id="20" lineNum="47" parent="globals/RegattaTimerDelegate" pc="268436798" symbol="onBack"/>
+        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerDelegate.mc" id="20" lineNum="48" parent="globals/RegattaTimerDelegate" pc="268436815" symbol="onBack"/>
+        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerDelegate.mc" id="20" lineNum="51" parent="globals/RegattaTimerDelegate" pc="268436831" symbol="onBack"/>
+        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerDelegate.mc" id="20" lineNum="52" parent="globals/RegattaTimerDelegate" pc="268436848" symbol="onBack"/>
+        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerDelegate.mc" id="20" lineNum="55" parent="globals/RegattaTimerDelegate" pc="268436864" symbol="onBack"/>
+        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerDelegate.mc" id="20" lineNum="57" parent="globals/RegattaTimerDelegate" pc="268436870" symbol="onBack"/>
+        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerDelegate.mc" id="21" lineNum="61" parent="globals/RegattaTimerDelegate" pc="268436874" symbol="startCountdown"/>
+        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerDelegate.mc" id="21" lineNum="62" parent="globals/RegattaTimerDelegate" pc="268436876" symbol="startCountdown"/>
+        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerDelegate.mc" id="21" lineNum="63" parent="globals/RegattaTimerDelegate" pc="268436910" symbol="startCountdown"/>
+        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerDelegate.mc" id="22" lineNum="66" parent="globals/RegattaTimerDelegate" pc="268436952" symbol="updateCountdownValue"/>
+        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerDelegate.mc" id="22" lineNum="67" parent="globals/RegattaTimerDelegate" pc="268436954" symbol="updateCountdownValue"/>
+        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerDelegate.mc" id="22" lineNum="68" parent="globals/RegattaTimerDelegate" pc="268436971" symbol="updateCountdownValue"/>
+        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerDelegate.mc" id="22" lineNum="69" parent="globals/RegattaTimerDelegate" pc="268436981" symbol="updateCountdownValue"/>
+        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerDelegate.mc" id="22" lineNum="70" parent="globals/RegattaTimerDelegate" pc="268436996" symbol="updateCountdownValue"/>
+        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerDelegate.mc" id="22" lineNum="74" parent="globals/RegattaTimerDelegate" pc="268437068" symbol="updateCountdownValue"/>
+        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerDelegate.mc" id="22" lineNum="75" parent="globals/RegattaTimerDelegate" pc="268437079" symbol="updateCountdownValue"/>
+        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerDelegate.mc" id="22" lineNum="77" parent="globals/RegattaTimerDelegate" pc="268437101" symbol="updateCountdownValue"/>
+        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerDelegate.mc" id="22" lineNum="81" parent="globals/RegattaTimerDelegate" pc="268437120" symbol="updateCountdownValue"/>
+        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerDelegate.mc" id="22" lineNum="82" parent="globals/RegattaTimerDelegate" pc="268437169" symbol="updateCountdownValue"/>
+        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerDelegate.mc" id="22" lineNum="83" parent="globals/RegattaTimerDelegate" pc="268437191" symbol="updateCountdownValue"/>
+        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerDelegate.mc" id="22" lineNum="85" parent="globals/RegattaTimerDelegate" pc="268437206" symbol="updateCountdownValue"/>
+        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerDelegate.mc" id="23" lineNum="20" parent="globals/RegattaTimerDelegate" pc="268437241" symbol="initialize"/>
+        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerDelegate.mc" id="23" lineNum="21" parent="globals/RegattaTimerDelegate" pc="268437243" symbol="initialize"/>
+        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerApp.mc" id="24" lineNum="36" parent="globals" pc="268437262" symbol="getView"/>
+        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/source/RegattaTimerApp.mc" id="24" lineNum="37" parent="globals" pc="268437272" symbol="getView"/>
+        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/bin/gen/006-B3652-00/source/Rez.mcgen" id="25" lineNum="21" parent="globals/Rez/Layouts" pc="268437297" symbol="MainLayout"/>
+        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/bin/gen/006-B3652-00/source/Rez.mcgen" id="25" lineNum="22" parent="globals/Rez/Layouts" pc="268437309" symbol="MainLayout"/>
+        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/bin/gen/006-B3652-00/source/Rez.mcgen" id="25" lineNum="23" parent="globals/Rez/Layouts" pc="268437350" symbol="MainLayout"/>
+        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/bin/gen/006-B3652-00/source/Rez.mcgen" id="25" lineNum="25" parent="globals/Rez/Layouts" pc="268437472" symbol="MainLayout"/>
+        <entry filename="/Users/anders.indregard/garmin_developer/RegattaTimer/bin/gen/006-B3652-00/source/Rez.mcgen" id="25" lineNum="27" parent="globals/Rez/Layouts" pc="268437597" symbol="MainLayout"/>
     </pcToLineNum>
     <symbolTable>
         <entry id="8388639" module="true" symbol="Graphics"/>
         <entry id="8389346" symbol="text"/>
-        <entry field="true" id="26" symbol="&lt;globals/RegattaTimerDelegate/&lt;&gt;_view&gt;"/>
+        <entry field="true" id="27" symbol="&lt;globals/RegattaTimerDelegate/&lt;&gt;_view&gt;"/>
         <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
         <entry id="8" module="true" symbol="globals/Rez/Menus"/>
-        <entry id="31" method="true" symbol="MainLayout"/>
-        <entry field="true" id="23" symbol="&lt;globals/RegattaTimerDelegate/&lt;&gt;_timer&gt;"/>
+        <entry id="32" method="true" symbol="MainLayout"/>
+        <entry field="true" id="24" symbol="&lt;globals/RegattaTimerDelegate/&lt;&gt;_timer&gt;"/>
         <entry field="true" id="8388611" module="true" symbol="Toybox"/>
-        <entry id="17" method="true" symbol="setClockValue"/>
+        <entry id="18" method="true" symbol="setClockValue"/>
         <entry id="8388649" module="true" object="true" symbol="Test"/>
-        <entry field="true" id="22" symbol="&lt;globals/RegattaTimerDelegate/&lt;&gt;_timeLeft&gt;"/>
-        <entry field="true" id="24" symbol="&lt;globals/RegattaTimerDelegate/&lt;&gt;_vibrationCount&gt;"/>
+        <entry field="true" id="23" symbol="&lt;globals/RegattaTimerDelegate/&lt;&gt;_timeLeft&gt;"/>
+        <entry field="true" id="25" symbol="&lt;globals/RegattaTimerDelegate/&lt;&gt;_vibrationCount&gt;"/>
         <entry id="12" object="true" symbol="RegattaTimerView"/>
-        <entry field="true" id="32" symbol="AppName"/>
-        <entry id="28" method="true" symbol="updateCountdownValue"/>
+        <entry field="true" id="35" symbol="AppName"/>
+        <entry id="29" method="true" symbol="updateCountdownValue"/>
         <entry id="9" module="true" symbol="globals/Rez/Strings"/>
         <entry id="8388772" module="true" object="true" symbol="Fonts"/>
         <entry id="10" object="true" symbol="RegattaTimerApp"/>
         <entry id="8388648" module="true" symbol="WatchUi"/>
         <entry id="8389081" method="true" symbol="onBack"/>
         <entry id="3" module="true" symbol="globals/Rez"/>
-        <entry field="true" id="20" symbol="&lt;globals/RegattaTimerDelegate/&lt;&gt;_countUp&gt;"/>
+        <entry field="true" id="21" symbol="&lt;globals/RegattaTimerDelegate/&lt;&gt;_countUp&gt;"/>
         <entry field="true" id="15" symbol="&lt;globals/RegattaTimerView/&lt;&gt;_clock&gt;"/>
         <entry id="8389124" method="true" symbol="onUpdate"/>
         <entry field="true" id="8389065" symbol="locY"/>
@@ -141,69 +143,74 @@
         <entry field="true" id="16" symbol="&lt;globals/RegattaTimerView/&lt;&gt;_raceTimer&gt;"/>
         <entry id="6" module="true" symbol="globals/Rez/JsonData"/>
         <entry id="4" module="true" symbol="globals/Rez/Drawables"/>
-        <entry field="true" id="19" symbol="&lt;globals/RegattaTimerApp/&lt;&gt;_view&gt;"/>
-        <entry id="27" method="true" symbol="startCountdown"/>
+        <entry field="true" id="33" symbol="customFont"/>
+        <entry field="true" id="20" symbol="&lt;globals/RegattaTimerApp/&lt;&gt;_view&gt;"/>
+        <entry id="28" method="true" symbol="startCountdown"/>
         <entry id="8388644" module="true" symbol="System"/>
         <entry id="8389619" method="true" symbol="onSelect"/>
         <entry id="8388769" module="true" object="true" symbol="Rez"/>
         <entry id="8388640" module="true" symbol="Lang"/>
         <entry id="8390088" module="true" object="true" symbol="JsonData"/>
-        <entry field="true" id="30" symbol="LauncherIcon"/>
+        <entry field="true" id="31" symbol="LauncherIcon"/>
         <entry id="8388610" symbol="statics"/>
         <entry id="8389123" method="true" symbol="onShow"/>
         <entry id="8389350" module="true" symbol="globals"/>
         <entry id="8388770" module="true" object="true" symbol="Strings"/>
         <entry id="8388702" method="true" symbol="initialize"/>
+        <entry field="true" id="34" symbol="customFont2"/>
         <entry id="8389279" method="true" symbol="onStart"/>
-        <entry id="18" method="true" symbol="setTimerValue"/>
+        <entry id="19" method="true" symbol="setTimerValue"/>
         <entry id="11" object="true" symbol="RegattaTimerDelegate"/>
-        <entry field="true" id="25" symbol="&lt;globals/RegattaTimerDelegate/&lt;&gt;_vibrationTimer&gt;"/>
+        <entry field="true" id="26" symbol="&lt;globals/RegattaTimerDelegate/&lt;&gt;_vibrationTimer&gt;"/>
         <entry id="8389280" method="true" symbol="getInitialView"/>
-        <entry field="true" id="29" symbol="&lt;globals/RegattaTimerDelegate/&lt;statics&gt;/&lt;&gt;duration&gt;"/>
+        <entry field="true" id="30" symbol="&lt;globals/RegattaTimerDelegate/&lt;statics&gt;/&lt;&gt;duration&gt;"/>
         <entry id="8389281" method="true" symbol="onStop"/>
         <entry id="8389347" symbol="color"/>
+        <entry field="true" id="17" symbol="&lt;globals/RegattaTimerView/&lt;&gt;customFont&gt;"/>
         <entry id="8388646" module="true" object="true" symbol="Timer"/>
         <entry id="13" module="true" symbol="Layouts"/>
         <entry id="8388636" module="true" symbol="Attention"/>
         <entry id="5" module="true" symbol="globals/Rez/Fonts"/>
         <entry id="8389125" method="true" symbol="onHide"/>
         <entry id="8391945" method="true" symbol="getView"/>
-        <entry field="true" id="21" symbol="&lt;globals/RegattaTimerDelegate/&lt;&gt;_countdownInProgress&gt;"/>
+        <entry field="true" id="22" symbol="&lt;globals/RegattaTimerDelegate/&lt;&gt;_countdownInProgress&gt;"/>
         <entry id="8388635" module="true" symbol="Application"/>
     </symbolTable>
     <localVars>
         <entry endPc="268435667" name="currentTime" stackId="1" startPc="268435533"/>
         <entry endPc="268435667" name="timeString" stackId="2" startPc="268435533"/>
-        <entry arg="true" endPc="268435760" name="dc" stackId="1" startPc="268435669"/>
-        <entry arg="true" endPc="268436111" name="value" stackId="1" startPc="268435782"/>
-        <entry arg="true" endPc="268436111" name="countDirection" stackId="2" startPc="268435782"/>
-        <entry endPc="268436110" name="minutes" stackId="3" startPc="268435786"/>
-        <entry endPc="268436110" name="seconds" stackId="4" startPc="268435786"/>
-        <entry endPc="268436110" name="secondsFormatted" stackId="5" startPc="268435786"/>
-        <entry endPc="268436110" name="timeFormatted" stackId="6" startPc="268435786"/>
-        <entry arg="true" endPc="268436146" name="dc" stackId="1" startPc="268436112"/>
-        <entry arg="true" endPc="268437711" name="dc" stackId="1" startPc="268437246"/>
-        <entry endPc="268437711" name="rez_cmp_local_text_app_title" stackId="2" startPc="268437258"/>
-        <entry endPc="268437711" name="rez_cmp_local_text_race_timer" stackId="3" startPc="268437258"/>
-        <entry endPc="268437711" name="rez_cmp_local_text_clock" stackId="4" startPc="268437258"/>
+        <entry arg="true" endPc="268435807" name="dc" stackId="1" startPc="268435669"/>
+        <entry arg="true" endPc="268436158" name="value" stackId="1" startPc="268435829"/>
+        <entry arg="true" endPc="268436158" name="countDirection" stackId="2" startPc="268435829"/>
+        <entry endPc="268436157" name="minutes" stackId="3" startPc="268435833"/>
+        <entry endPc="268436157" name="seconds" stackId="4" startPc="268435833"/>
+        <entry endPc="268436157" name="secondsFormatted" stackId="5" startPc="268435833"/>
+        <entry endPc="268436157" name="timeFormatted" stackId="6" startPc="268435833"/>
+        <entry arg="true" endPc="268436193" name="dc" stackId="1" startPc="268436159"/>
+        <entry arg="true" endPc="268437623" name="dc" stackId="1" startPc="268437297"/>
+        <entry endPc="268437623" name="local_Rez_Fonts_customFont2" stackId="2" startPc="268437309"/>
+        <entry endPc="268437623" name="rez_cmp_local_text_race_timer" stackId="3" startPc="268437309"/>
+        <entry endPc="268437623" name="rez_cmp_local_text_clock" stackId="4" startPc="268437309"/>
     </localVars>
     <annotations>
         <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
+        <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="customFont"/>
+        <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="customFont2"/>
         <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppName"/>
     </annotations>
     <dataEntryOffsetMappings>
         <dataEntry label="globals" offset="95" parentId="" symbolId="globals" type="module"/>
         <dataEntry label="globals/Rez" offset="182" parentId="globals" symbolId="Rez" type="module"/>
         <dataEntry label="globals/RegattaTimerView" offset="261" parentId="globals" symbolId="RegattaTimerView" type="class"/>
-        <dataEntry label="globals/RegattaTimerApp" offset="372" parentId="globals" symbolId="RegattaTimerApp" type="class"/>
-        <dataEntry label="globals/RegattaTimerDelegate" offset="459" parentId="globals" symbolId="RegattaTimerDelegate" type="class"/>
-        <dataEntry label="globals/RegattaTimerDelegate/&lt;statics&gt;" offset="602" parentId="RegattaTimerDelegate" symbolId="&lt;statics&gt;" type="module"/>
-        <dataEntry label="globals/Rez/Drawables" offset="641" parentId="Rez" symbolId="Drawables" type="module"/>
-        <dataEntry label="globals/Rez/Layouts" offset="680" parentId="Rez" symbolId="Layouts" type="module"/>
-        <dataEntry label="globals/Rez/Menus" offset="719" parentId="Rez" symbolId="Menus" type="module"/>
-        <dataEntry label="globals/Rez/Fonts" offset="750" parentId="Rez" symbolId="Fonts" type="module"/>
-        <dataEntry label="globals/Rez/Strings" offset="781" parentId="Rez" symbolId="Strings" type="module"/>
-        <dataEntry label="globals/Rez/JsonData" offset="820" parentId="Rez" symbolId="JsonData" type="module"/>
+        <dataEntry label="globals/RegattaTimerApp" offset="380" parentId="globals" symbolId="RegattaTimerApp" type="class"/>
+        <dataEntry label="globals/RegattaTimerDelegate" offset="467" parentId="globals" symbolId="RegattaTimerDelegate" type="class"/>
+        <dataEntry label="globals/RegattaTimerDelegate/&lt;statics&gt;" offset="610" parentId="RegattaTimerDelegate" symbolId="&lt;statics&gt;" type="module"/>
+        <dataEntry label="globals/Rez/Drawables" offset="649" parentId="Rez" symbolId="Drawables" type="module"/>
+        <dataEntry label="globals/Rez/Layouts" offset="688" parentId="Rez" symbolId="Layouts" type="module"/>
+        <dataEntry label="globals/Rez/Menus" offset="727" parentId="Rez" symbolId="Menus" type="module"/>
+        <dataEntry label="globals/Rez/Fonts" offset="758" parentId="Rez" symbolId="Fonts" type="module"/>
+        <dataEntry label="globals/Rez/Strings" offset="805" parentId="Rez" symbolId="Strings" type="module"/>
+        <dataEntry label="globals/Rez/JsonData" offset="844" parentId="Rez" symbolId="JsonData" type="module"/>
     </dataEntryOffsetMappings>
     <functions>
         <functionEntry accessMode="public" endPc="268435485" name="getApp" startPc="268435460">
@@ -221,70 +228,70 @@
         <functionEntry accessMode="public" endPc="268435668" name="setClockValue" parent="RegattaTimerView" startPc="268435529">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435760" name="onLayout" parent="RegattaTimerView" startPc="268435669">
+        <functionEntry accessMode="public" endPc="268435807" name="onLayout" parent="RegattaTimerView" startPc="268435669">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435781" name="initialize" parent="RegattaTimerView" startPc="268435761">
+        <functionEntry accessMode="public" endPc="268435828" name="initialize" parent="RegattaTimerView" startPc="268435808">
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" name="onHide" parent="RegattaTimerView">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436111" name="setTimerValue" parent="RegattaTimerView" startPc="268435782">
+        <functionEntry accessMode="public" endPc="268436158" name="setTimerValue" parent="RegattaTimerView" startPc="268435829">
             <param id="value"/>
             <param id="countDirection"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436146" name="onUpdate" parent="RegattaTimerView" startPc="268436112">
+        <functionEntry accessMode="public" endPc="268436193" name="onUpdate" parent="RegattaTimerView" startPc="268436159">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436165" name="&lt;init&gt;" parent="RegattaTimerApp" startPc="268436147">
+        <functionEntry accessMode="public" endPc="268436212" name="&lt;init&gt;" parent="RegattaTimerApp" startPc="268436194">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436168" name="onStart" parent="RegattaTimerApp" startPc="268436166">
+        <functionEntry accessMode="public" endPc="268436215" name="onStart" parent="RegattaTimerApp" startPc="268436213">
             <param id="state"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436261" name="getInitialView" parent="RegattaTimerApp" startPc="268436169">
+        <functionEntry accessMode="public" endPc="268436308" name="getInitialView" parent="RegattaTimerApp" startPc="268436216">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436282" name="initialize" parent="RegattaTimerApp" startPc="268436262">
+        <functionEntry accessMode="public" endPc="268436329" name="initialize" parent="RegattaTimerApp" startPc="268436309">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436293" name="getView" parent="RegattaTimerApp" startPc="268436283">
+        <functionEntry accessMode="public" endPc="268436340" name="getView" parent="RegattaTimerApp" startPc="268436330">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436296" name="onStop" parent="RegattaTimerApp" startPc="268436294">
+        <functionEntry accessMode="public" endPc="268436343" name="onStop" parent="RegattaTimerApp" startPc="268436341">
             <param id="state"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436334" name="&lt;init&gt;" parent="RegattaTimerDelegate" startPc="268436297">
+        <functionEntry accessMode="public" endPc="268436381" name="&lt;init&gt;" parent="RegattaTimerDelegate" startPc="268436344">
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" name="&lt;init&gt;" parent="globals/RegattaTimerDelegate">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436535" name="vibrate" parent="RegattaTimerDelegate" startPc="268436335">
+        <functionEntry accessMode="public" endPc="268436582" name="vibrate" parent="RegattaTimerDelegate" startPc="268436382">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436684" name="onSelect" parent="RegattaTimerDelegate" startPc="268436536">
+        <functionEntry accessMode="public" endPc="268436731" name="onSelect" parent="RegattaTimerDelegate" startPc="268436583">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436822" name="onBack" parent="RegattaTimerDelegate" startPc="268436685">
+        <functionEntry accessMode="public" endPc="268436873" name="onBack" parent="RegattaTimerDelegate" startPc="268436732">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436900" name="startCountdown" parent="RegattaTimerDelegate" startPc="268436823">
+        <functionEntry accessMode="public" endPc="268436951" name="startCountdown" parent="RegattaTimerDelegate" startPc="268436874">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437189" name="updateCountdownValue" parent="RegattaTimerDelegate" startPc="268436901">
+        <functionEntry accessMode="public" endPc="268437240" name="updateCountdownValue" parent="RegattaTimerDelegate" startPc="268436952">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437210" name="initialize" parent="RegattaTimerDelegate" startPc="268437190">
+        <functionEntry accessMode="public" endPc="268437261" name="initialize" parent="RegattaTimerDelegate" startPc="268437241">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437245" name="getView" startPc="268437211">
+        <functionEntry accessMode="public" endPc="268437296" name="getView" startPc="268437262">
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" name="&lt;init&gt;" parent="Drawables">
@@ -305,7 +312,7 @@
         <functionEntry accessMode="public" name="&lt;init&gt;" parent="JsonData">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437711" name="MainLayout" parent="Layouts" startPc="268437246">
+        <functionEntry accessMode="public" endPc="268437623" name="MainLayout" parent="Layouts" startPc="268437297">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
